@@ -1,6 +1,6 @@
 function move(event) {
   var k = event.keyCode;
-  var distance = 10;
+  var distance = 15;
   var chr = {
     updown: function() {
       var y = 0;
