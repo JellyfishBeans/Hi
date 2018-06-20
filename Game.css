@@ -3,6 +3,16 @@
     top: 0px;
     left: 0px;
 }
+
 body {
-  background-image:url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/starry-night-sky-animation-with-light-particles-flickering-on-purple-gradient-background_b-gnddbel_thumbnail-full01.png);
-  
+  background: url(nightsky.png);
+  background-size: cover;
+  top: ;
+  left: ;
+}
+
+#tree {
+  position: fixed;
+  top: 79%;
+  left: 20%;
+}
