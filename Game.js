@@ -5,6 +5,9 @@ function move(event){
   if(event.keyCode == 32) {
     moving = !moving;
     moveBg();
+  }
+  if(!moving) {
+    alert("PAUSE. CLICK SPACE TWICE TO CONTINUE");
   } else {
     moveSprite(event);
   }
