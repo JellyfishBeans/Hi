@@ -2,17 +2,49 @@
     position: relative;
     top: 0px;
     left: 0px;
+    /* border: dashed; */
 }
 
 body {
   background: url(nightsky.png);
   background-size: cover;
-  top: ;
-  left: ;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #tree {
-  position: fixed;
-  top: 79%;
-  left: 20%;
+  position: absolute;
+  left: auto;
+  bottom: 0px;
+  /* border: dashed; */
+}
+
+#tree2 {
+  position: absolute;
+  left: 200px;
+  bottom: 0px;
+}
+
+#tree3 {
+  position: absolute;
+  left: 400px;
+  bottom: 0px;
+}
+
+#tree4 {
+  position: absolute;
+  left: 600px;
+  bottom: 0px;
+}
+
+#tree5 {
+  position: absolute;
+  left: 800px;
+  bottom: 0px;
+}
+
+#tree6 {
+  position: absolute;
+  left: 1000px;
+  bottom: 0px;
 }
